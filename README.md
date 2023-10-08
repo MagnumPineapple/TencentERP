@@ -12,14 +12,15 @@ Login con diseño minimalista, usando boostrap.
 ### TO-DO
 [B, F] Recaptcha V3 para evitar fuerza bruta\
 [B, F] Detección de IP anómala\
-[B, F] Implementación TOTP para sección *olvidé contraseña*, detección de IP anómala, link registro, etc.
+[B, F] Implementación TOTP mediante correo para sección *olvidé contraseña*, detección de IP anómala, link registro, etc.\
 [B] Implementación envío de correos en NodeJS\
 [B, F] Hashing de contraseña cambiada en la sección *olvidé contraseña*, usando algoritmo Argon2.
 
 ### Posibles características futuras
 [+] Login con solamente huella digital desde dispositivos móviles\
-[+]. Implementación 2FA y 3FA
-
+[+] Implementación 2FA y 3FA\
+[+] Login con API externas(Google, Github o LinkedIn)\
+[+] TOTP mediante SMS
 
 ## Registro
 
