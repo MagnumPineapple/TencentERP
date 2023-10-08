@@ -8,12 +8,14 @@ Login con diseño minimalista, usando boostrap.
 [+] Sección *login*\
 [+] Sección *olvidé contraseña*\
 [+] Sección *contactar soporte técnico*\
+[+] Envío de correos en NodeJS usando NodeMailer\
+[+] Implementación TOTP mediante correo
 
 ### TO-DO
 [B, F] Recaptcha V3 para evitar fuerza bruta\
 [B, F] Detección de IP anómala\
-[B, F] Implementación TOTP mediante correo para sección *olvidé contraseña*, detección de IP anómala, link registro, etc.\
-[B] Implementación envío de correos en NodeJS\
+~~[B, F] Implementación TOTP mediante correo para sección *olvidé contraseña*, detección de IP anómala, link registro, etc.~\
+~~[B] Implementación envío de correos en NodeJS~~\
 [B, F] Hashing de contraseña cambiada en la sección *olvidé contraseña*, usando algoritmo Argon2.
 
 ### Posibles características futuras
