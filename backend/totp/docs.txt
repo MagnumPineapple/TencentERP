@@ -1,0 +1,21 @@
+TOTP:
+- Genera un TOTP anclado a un elemento(gmail, sms, etc). Debe ir anclado a un elemento ya que de lo contrario, el TOTP generado serviría para cambiar cualquier cuenta.
+
+En la BD se crearía una tabla para TOTP de la forma:
+
+Elemento              |    TOTP                | expirationTime  |   Used 
+str(máx 100)              str(10 char)       unsignedInt        boolean
+
+
+Donde,
+Elemento es el elemento asociado.
+TOTP es el código generado. Tiene un largo exacto de 10 caracteres y su base es: [a-z0-9] (sin ñ), total 26 + 10 = 36 caracteres de base.
+MaxDuration es cuando expirará el TOTP medido en epoch time(y en ms). De tal manera que para verificar, bastaria con epochTime.now() < expirationTime.
+Used determina si el código se utilizó, o no.
+
+Ejemplo:
+example2@gmail.com       str(10)       31242182        true
+Es decir, cada entrada sería de la forma: [elemento, TOTP, expirationTime, used].
+
+
+       
