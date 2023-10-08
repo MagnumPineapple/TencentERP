@@ -9,7 +9,7 @@ Login con diseño minimalista, usando boostrap.
 [+] Sección *olvidé contraseña*\
 [+] Sección *contactar soporte técnico*\
 [+] Envío de correos en NodeJS usando NodeMailer\
-[+] Implementación TOTP mediante correo
+[+] Implementación TOTP enviado a correo
 
 ### TO-DO
 [B, F] Recaptcha V3 para evitar fuerza bruta\
